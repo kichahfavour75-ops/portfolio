@@ -180,7 +180,7 @@ export default function App() {
         </section>
 
         <section id="projects" className="section muted-section">
-          <SectionHeading eyebrow="04 / Selected work" title="Projects I'm proud of." text="Replace these placeholders with your strongest professional, academic, freelance, or open-source work." />
+          <SectionHeading eyebrow="04 / Selected work" title="Projects I'm proud of." text="A selection of projects showcasing my experience building modern, responsive, and practical web applications." />
           <div className="projects-grid">
             {portfolio.projects.map((project, index) => (
               <motion.article className="project-card" key={project.title} whileHover={{ y: -6 }} transition={{ duration: 0.2 }}>
